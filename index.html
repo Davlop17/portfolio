@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio David López</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- MENU HEADER -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">David López</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#experiencia">EXPERIENCIA</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#mail">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/david.png" alt="">
+            </div>
+            <h1>David López</h1>
+            <h2>Ingeniero de Software</h2>
+            <div class="redes top">
+                <a href="https://www.linkedin.com/in/david-l%C3%B3pez-72a709235/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#mail"><i class="fa-solid fa-paper-plane"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>
+                <span>Hola, soy David López.</span>
+                Un programador full stack con amplia experiencia en la implementación de soluciones CRM. Mi pasión por
+                el sector me impulsa a superarme día a día, dónde valoro las críticas constructivas. Me considero una
+                persona
+                con actitud positiva, abierta a nuevos retos y sugerencias.
+            </p>
+
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento</strong>
+                            05/10/2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            630 330 663
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            <a href="#mail">davlop17dvp@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col ">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>DEPORTE</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELÍCULAS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button onclick="downloadPDF()">
+                Mi CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- SECCION Experiencia -->
+    <section id="experiencia" class="experiencia">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <!-- LEFT COL -->
+                <div class="col izquierda fila">
+
+                    <div class="item izq">
+                        <!-- <h4>eAlicia</h4> -->
+                        <span class="casa">eAlicia
+                            <a class="icon-rigth" href="https://www.ealicia.com/" target="_blank">
+                                <i class="fa-solid fa-info-circle"></i>
+                            </a>
+                        </span>
+
+                        <span class="fecha"> Programador Full stack </span>
+
+                        <p>Evaluación de software, detección de errores y desarrollo de soluciones. </p>
+                        <p>Creación y desarrollo de nuevos programas y aplicaciones.</p>
+                        <p>Análisis de los requerimientos y necesidades de los clientes.</p>
+                        <p>Creación de manuales (Técnicos/Usuarios).</p>
+                        <p>Mantenimento del aplicativo (.NET).</p>
+                        <p>Cumplimiento en entregas recurrentes.</p>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT COL -->
+                <div class="col derecha">
+
+                    <div class="item der">
+                        <!-- <h4>Deister Sowtware</h4> -->
+                        <span class="casa">Deister Software
+                            <a class="icon-rigth" href="https://www.deister.net/" target="_blank">
+                                <i class="fa-solid fa-info-circle"></i>
+                            </a>
+                        </span>
+
+                        <span class="fecha">Consultor IT</span>
+
+                        <p> Soporte y resolución de incidencias.</p>
+                        <p> Desarrollo y mantenimiento del software (principalmente JS). Desarrollo y mantenimiento del
+                            software (principalmente JS).</p>
+
+                        <p> Asesoramiento técnico a clientes sobre mejores prácticas de desarrollo y soluciones
+                            tecnológicas.
+                        </p>
+
+                        <p> Desarrollo enfocado en la entrega e integración continua. </p>
+                        <p> implementación de soluciones ERP. </p>
+                        <p> Uso de metodología Kanban.</p>
+
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>STACK TECNOLÓGICO</h2>
+
+            <div class="galeria">
+
+                <div class="skill">
+                    <img src="img/js.png" alt="">
+                    <div class="overlay">
+                        <h3>Java Script</h3>
+                        <p>jQuery</p>
+                        <p>TypeScript</p>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="img/erp.png" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo</h3>
+                        <p>Mantenimento y Implementación</p>                      
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="img/net.png" alt="">
+                    <div class="overlay">
+                        <h3>.NET</h3>
+                        <p>VB</p>
+                        <p>C#</p>
+                        <p>LINQ</p>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="img/sql.png" alt="">
+                    <div class="overlay">
+                        <h3>SQL Server</h3>                       
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="galeria">
+
+                <div class="skill">
+                    <img src="img/html5.png" alt="">
+                    <div class="overlay">
+                        <h3>HTML</h3>
+                        <p>Bootstrap</p> 
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="img/css.png" alt="">
+                    <div class="overlay">
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="img/angular.png" alt="">
+                    <div class="overlay">
+                        <h3>Angular</h3>
+                        <p>Angular Material</p>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img src="img/spring.png" alt="">
+                    <div class="overlay">
+                        <h3>Spring</h3>
+                        <p>Java</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION CONTACT -->
+
+    <section id="mail" class="mail">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <form action="https://formspree.io/f/mayrgplr" class="form-group" method="POST">
+
+                <div class="email">
+                    <label for="email">Tu Email </label>
+                    <input type="email" name="email" required>
+                </div>
+
+
+                <div class="message">
+                    <label for="message"> Contenido </label>
+                    <textarea name="message" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <button class="button" onclick="test()"> ENVIAR
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
